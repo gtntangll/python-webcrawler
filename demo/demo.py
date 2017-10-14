@@ -1,6 +1,7 @@
 import cookielib
 import urllib2
- 
+
+
 filename = 'cookie.txt'
 cookie = cookielib.MozillaCookieJar(filename)
 handler = urllib2.HTTPCookieProcessor(cookie)
