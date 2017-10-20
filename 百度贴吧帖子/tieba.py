@@ -23,7 +23,7 @@ class Tool:
         
         return x.strip()
 
-class BDTB:
+class DEMO:
     
     def __init__(self,baseUrl,seeLZ):
         
@@ -111,5 +111,5 @@ class BDTB:
 print u"请输入帖子代号"
 baseURL = 'http://tieba.baidu.com/p/' + str(raw_input(u'http://tieba.baidu.com/p/'))
 seeLZ = raw_input("是否只获取楼主发言,是输入1,否输入0\n")
-bdtb = BDTB(baseURL,seeLZ)
-bdtb.start()
+demo = DEMO(baseURL,seeLZ)
+demo.start()
